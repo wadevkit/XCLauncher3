@@ -113,7 +113,7 @@
 
     const-string v2, "com.zeekr.carlauncher3d"
 
-    const-string v3, "com.zeekr.automap"
+    const-string v3, "ru.yandex.yandexnavi"
 
     const v4, 0x200230
 
