@@ -49,26 +49,7 @@
 .method public verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Ljavax/net/ssl/HttpsURLConnection;->getDefaultHostnameVerifier()Ljavax/net/ssl/HostnameVerifier;
+    const/4 v0, 0x1
 
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p1
-
-    .line 5
-    iget-object v0, p0, Lcom/zeekr/zhttp/upload/oss/internal/InternalRequestOperation$2;->val$host:Ljava/lang/String;
-
-    .line 6
-    .line 7
-    invoke-interface {p1, v0, p2}, Ljavax/net/ssl/HostnameVerifier;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result p1
-
-    .line 11
-    return p1
+    return v0
 .end method

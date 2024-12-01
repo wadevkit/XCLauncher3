@@ -422,7 +422,7 @@
 
     .line 70
     :cond_4
-    const-string v8, "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439"
+    const-string v8, "\u672a\u77e5"
 
     .line 71
     .line 72

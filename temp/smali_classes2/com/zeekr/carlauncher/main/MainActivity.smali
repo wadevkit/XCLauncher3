@@ -2725,6 +2725,44 @@
     return-object v0
 .end method
 
+.method public getHorizontalMargins(Landroid/view/View;)I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    .line 6
+    .line 7
+    invoke-static {p1}, Landroidx/core/view/MarginLayoutParamsCompat;->getMarginStart(Landroid/view/ViewGroup$MarginLayoutParams;)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    invoke-static {p1}, Landroidx/core/view/MarginLayoutParamsCompat;->getMarginEnd(Landroid/view/ViewGroup$MarginLayoutParams;)I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p1
+
+    .line 15
+    add-int/2addr v0, p1
+
+    .line 16
+    return v0
+.end method
+
 .method public getLauncherHelper()Lcom/zeekr/carlauncher/utils/LauncherHelper;
     .locals 1
 
@@ -2838,6 +2876,10 @@
     .line 48
     .line 49
     :goto_0
+    const/16 v0, 0x82
+
+    invoke-virtual {p0, v0}, Lcom/zeekr/carlauncher/main/MainActivity;->switchAutoMap(I)V
+
     return-void
 .end method
 
@@ -4703,6 +4745,10 @@
     .line 18
     invoke-virtual {v0, v1}, Lcom/zeekr/carlauncher/cards/CardsManager;->smoothOpenCardsBar(Z)V
 
+    const/16 v0, 0x285
+
+    invoke-virtual {p0, v0}, Lcom/zeekr/carlauncher/main/MainActivity;->switchAutoMap(I)V
+
     .line 19
     .line 20
     .line 21
@@ -4727,5 +4773,127 @@
     .line 7
     .line 8
     .line 9
+    return-void
+.end method
+
+.method public stretchAutoMap(II)V
+    .locals 3
+
+    .line 1
+    const-string v0, "ecarx.launcher3.MainActivity"
+
+    .line 2
+    .line 3
+    const-string v1, "stretchAutoMap()"
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lcom/zeekr/common/log/Logger;->d(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 50
+    .line 51
+    .line 52
+    iget-object v0, p0, Lcom/zeekr/carlauncher/main/MainActivity;->binding:Lecarx/launcher3/databinding/ActivityMainBinding;
+
+    .line 53
+    .line 54
+    iget-object v0, v0, Lecarx/launcher3/databinding/ActivityMainBinding;->mapActivityView:Lcom/zeekr/taskviewcompat/TaskViewCompat;
+
+    .line 106
+    .line 107
+    .line 1
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Landroid/view/ViewGroup$LayoutParams;
+
+    .line 6
+    .line 7
+    .line 8
+    iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    .line 116
+    .line 117
+    iget-object v2, p0, Lcom/zeekr/carlauncher/main/MainActivity;->binding:Lecarx/launcher3/databinding/ActivityMainBinding;
+
+    .line 118
+    .line 119
+    iget-object v2, v2, Lecarx/launcher3/databinding/ActivityMainBinding;->mapActivityView:Lcom/zeekr/taskviewcompat/TaskViewCompat;
+
+    .line 120
+    .line 121
+    invoke-virtual {v2, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method
+
+.method public switchAutoMap(I)V
+    .locals 3
+
+    .line 1
+    const-string v0, "ecarx.launcher3.MainActivity"
+
+    .line 2
+    .line 3
+    const-string v1, "switchAutoMap()"
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lcom/zeekr/common/log/Logger;->d(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 50
+    .line 51
+    .line 52
+    iget-object v0, p0, Lcom/zeekr/carlauncher/main/MainActivity;->binding:Lecarx/launcher3/databinding/ActivityMainBinding;
+
+    .line 53
+    .line 54
+    iget-object v0, v0, Lecarx/launcher3/databinding/ActivityMainBinding;->mapActivityView:Lcom/zeekr/taskviewcompat/TaskViewCompat;
+
+    .line 106
+    .line 107
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    .line 108
+    .line 109
+    .line 110
+    move-result-object v0
+
+    .line 111
+    check-cast v0, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    .line 114
+    .line 115
+    iput p1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    .line 116
+    .line 117
+    iget-object v2, p0, Lcom/zeekr/carlauncher/main/MainActivity;->binding:Lecarx/launcher3/databinding/ActivityMainBinding;
+
+    .line 118
+    .line 119
+    iget-object v2, v2, Lecarx/launcher3/databinding/ActivityMainBinding;->mapActivityView:Lcom/zeekr/taskviewcompat/TaskViewCompat;
+
+    .line 120
+    .line 121
+    invoke-virtual {v2, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 122
+    .line 123
+    .line 124
     return-void
 .end method
