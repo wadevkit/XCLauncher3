@@ -1,0 +1,735 @@
+.class public final enum Lcom/zeekr/sdk/base/x$g$b;
+.super Ljava/lang/Enum;
+.source "Descriptors.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/zeekr/sdk/base/x$g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/zeekr/sdk/base/x$g$b;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum b:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum c:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum d:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum e:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum f:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum g:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum h:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum i:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum j:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum k:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum l:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum m:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum n:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum o:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum p:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum q:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum r:Lcom/zeekr/sdk/base/x$g$b;
+
+.field public static final enum s:Lcom/zeekr/sdk/base/x$g$b;
+
+.field private static final synthetic t:[Lcom/zeekr/sdk/base/x$g$b;
+
+
+# instance fields
+.field private a:Lcom/zeekr/sdk/base/x$g$a;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 21
+
+    .line 1
+    new-instance v0, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 2
+    .line 3
+    sget-object v1, Lcom/zeekr/sdk/base/x$g$a;->e:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 4
+    .line 5
+    const-string v2, "DOUBLE"
+
+    .line 6
+    .line 7
+    const/4 v3, 0x0
+
+    .line 8
+    invoke-direct {v0, v2, v3, v1}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sput-object v0, Lcom/zeekr/sdk/base/x$g$b;->b:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 12
+    .line 13
+    new-instance v1, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 14
+    .line 15
+    sget-object v2, Lcom/zeekr/sdk/base/x$g$a;->d:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 16
+    .line 17
+    const-string v4, "FLOAT"
+
+    .line 18
+    .line 19
+    const/4 v5, 0x1
+
+    .line 20
+    invoke-direct {v1, v4, v5, v2}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 21
+    .line 22
+    .line 23
+    sput-object v1, Lcom/zeekr/sdk/base/x$g$b;->c:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 24
+    .line 25
+    new-instance v2, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 26
+    .line 27
+    sget-object v4, Lcom/zeekr/sdk/base/x$g$a;->c:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 28
+    .line 29
+    const-string v6, "INT64"
+
+    .line 30
+    .line 31
+    const/4 v7, 0x2
+
+    .line 32
+    invoke-direct {v2, v6, v7, v4}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 33
+    .line 34
+    .line 35
+    sput-object v2, Lcom/zeekr/sdk/base/x$g$b;->d:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 36
+    .line 37
+    new-instance v6, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 38
+    .line 39
+    const-string v8, "UINT64"
+
+    .line 40
+    .line 41
+    const/4 v9, 0x3
+
+    .line 42
+    invoke-direct {v6, v8, v9, v4}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 43
+    .line 44
+    .line 45
+    sput-object v6, Lcom/zeekr/sdk/base/x$g$b;->e:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 46
+    .line 47
+    new-instance v8, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 48
+    .line 49
+    sget-object v10, Lcom/zeekr/sdk/base/x$g$a;->b:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 50
+    .line 51
+    const-string v11, "INT32"
+
+    .line 52
+    .line 53
+    const/4 v12, 0x4
+
+    .line 54
+    invoke-direct {v8, v11, v12, v10}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 55
+    .line 56
+    .line 57
+    sput-object v8, Lcom/zeekr/sdk/base/x$g$b;->f:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 58
+    .line 59
+    new-instance v11, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 60
+    .line 61
+    const-string v13, "FIXED64"
+
+    .line 62
+    .line 63
+    const/4 v14, 0x5
+
+    .line 64
+    invoke-direct {v11, v13, v14, v4}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 65
+    .line 66
+    .line 67
+    sput-object v11, Lcom/zeekr/sdk/base/x$g$b;->g:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 68
+    .line 69
+    new-instance v13, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 70
+    .line 71
+    const-string v15, "FIXED32"
+
+    .line 72
+    .line 73
+    const/4 v14, 0x6
+
+    .line 74
+    invoke-direct {v13, v15, v14, v10}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 75
+    .line 76
+    .line 77
+    sput-object v13, Lcom/zeekr/sdk/base/x$g$b;->h:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 78
+    .line 79
+    new-instance v15, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 80
+    .line 81
+    sget-object v14, Lcom/zeekr/sdk/base/x$g$a;->f:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 82
+    .line 83
+    const-string v12, "BOOL"
+
+    .line 84
+    .line 85
+    const/4 v9, 0x7
+
+    .line 86
+    invoke-direct {v15, v12, v9, v14}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 87
+    .line 88
+    .line 89
+    sput-object v15, Lcom/zeekr/sdk/base/x$g$b;->i:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 90
+    .line 91
+    new-instance v12, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 92
+    .line 93
+    sget-object v14, Lcom/zeekr/sdk/base/x$g$a;->g:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 94
+    .line 95
+    const-string v9, "STRING"
+
+    .line 96
+    .line 97
+    const/16 v7, 0x8
+
+    .line 98
+    .line 99
+    invoke-direct {v12, v9, v7, v14}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 100
+    .line 101
+    .line 102
+    sput-object v12, Lcom/zeekr/sdk/base/x$g$b;->j:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 103
+    .line 104
+    new-instance v9, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 105
+    .line 106
+    sget-object v14, Lcom/zeekr/sdk/base/x$g$a;->j:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 107
+    .line 108
+    const-string v7, "GROUP"
+
+    .line 109
+    .line 110
+    const/16 v5, 0x9
+
+    .line 111
+    .line 112
+    invoke-direct {v9, v7, v5, v14}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 113
+    .line 114
+    .line 115
+    sput-object v9, Lcom/zeekr/sdk/base/x$g$b;->k:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 116
+    .line 117
+    new-instance v7, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 118
+    .line 119
+    const-string v5, "MESSAGE"
+
+    .line 120
+    .line 121
+    const/16 v3, 0xa
+
+    .line 122
+    .line 123
+    invoke-direct {v7, v5, v3, v14}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 124
+    .line 125
+    .line 126
+    sput-object v7, Lcom/zeekr/sdk/base/x$g$b;->l:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 127
+    .line 128
+    new-instance v5, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 129
+    .line 130
+    sget-object v14, Lcom/zeekr/sdk/base/x$g$a;->h:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 131
+    .line 132
+    const-string v3, "BYTES"
+
+    .line 133
+    .line 134
+    move-object/from16 v16, v7
+
+    .line 135
+    .line 136
+    const/16 v7, 0xb
+
+    .line 137
+    .line 138
+    invoke-direct {v5, v3, v7, v14}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 139
+    .line 140
+    .line 141
+    sput-object v5, Lcom/zeekr/sdk/base/x$g$b;->m:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 142
+    .line 143
+    new-instance v3, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 144
+    .line 145
+    const-string v14, "UINT32"
+
+    .line 146
+    .line 147
+    const/16 v7, 0xc
+
+    .line 148
+    .line 149
+    invoke-direct {v3, v14, v7, v10}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 150
+    .line 151
+    .line 152
+    sput-object v3, Lcom/zeekr/sdk/base/x$g$b;->n:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 153
+    .line 154
+    new-instance v14, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 155
+    .line 156
+    sget-object v7, Lcom/zeekr/sdk/base/x$g$a;->i:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 157
+    .line 158
+    move-object/from16 v17, v3
+
+    .line 159
+    .line 160
+    const-string v3, "ENUM"
+
+    .line 161
+    .line 162
+    move-object/from16 v18, v5
+
+    .line 163
+    .line 164
+    const/16 v5, 0xd
+
+    .line 165
+    .line 166
+    invoke-direct {v14, v3, v5, v7}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 167
+    .line 168
+    .line 169
+    sput-object v14, Lcom/zeekr/sdk/base/x$g$b;->o:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 170
+    .line 171
+    new-instance v3, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 172
+    .line 173
+    const-string v7, "SFIXED32"
+
+    .line 174
+    .line 175
+    const/16 v5, 0xe
+
+    .line 176
+    .line 177
+    invoke-direct {v3, v7, v5, v10}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 178
+    .line 179
+    .line 180
+    sput-object v3, Lcom/zeekr/sdk/base/x$g$b;->p:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 181
+    .line 182
+    new-instance v7, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 183
+    .line 184
+    const-string v5, "SFIXED64"
+
+    .line 185
+    .line 186
+    move-object/from16 v19, v3
+
+    .line 187
+    .line 188
+    const/16 v3, 0xf
+
+    .line 189
+    .line 190
+    invoke-direct {v7, v5, v3, v4}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 191
+    .line 192
+    .line 193
+    sput-object v7, Lcom/zeekr/sdk/base/x$g$b;->q:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 194
+    .line 195
+    new-instance v5, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 196
+    .line 197
+    const-string v3, "SINT32"
+
+    .line 198
+    .line 199
+    move-object/from16 v20, v7
+
+    .line 200
+    .line 201
+    const/16 v7, 0x10
+
+    .line 202
+    .line 203
+    invoke-direct {v5, v3, v7, v10}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 204
+    .line 205
+    .line 206
+    sput-object v5, Lcom/zeekr/sdk/base/x$g$b;->r:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 207
+    .line 208
+    new-instance v3, Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 209
+    .line 210
+    const-string v10, "SINT64"
+
+    .line 211
+    .line 212
+    const/16 v7, 0x11
+
+    .line 213
+    .line 214
+    invoke-direct {v3, v10, v7, v4}, Lcom/zeekr/sdk/base/x$g$b;-><init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+
+    .line 215
+    .line 216
+    .line 217
+    sput-object v3, Lcom/zeekr/sdk/base/x$g$b;->s:Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 218
+    .line 219
+    const/16 v4, 0x12
+
+    .line 220
+    .line 221
+    new-array v4, v4, [Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 222
+    .line 223
+    const/4 v10, 0x0
+
+    .line 224
+    aput-object v0, v4, v10
+
+    .line 225
+    .line 226
+    const/4 v0, 0x1
+
+    .line 227
+    aput-object v1, v4, v0
+
+    .line 228
+    .line 229
+    const/4 v0, 0x2
+
+    .line 230
+    aput-object v2, v4, v0
+
+    .line 231
+    .line 232
+    const/4 v0, 0x3
+
+    .line 233
+    aput-object v6, v4, v0
+
+    .line 234
+    .line 235
+    const/4 v0, 0x4
+
+    .line 236
+    aput-object v8, v4, v0
+
+    .line 237
+    .line 238
+    const/4 v0, 0x5
+
+    .line 239
+    aput-object v11, v4, v0
+
+    .line 240
+    .line 241
+    const/4 v0, 0x6
+
+    .line 242
+    aput-object v13, v4, v0
+
+    .line 243
+    .line 244
+    const/4 v0, 0x7
+
+    .line 245
+    aput-object v15, v4, v0
+
+    .line 246
+    .line 247
+    const/16 v0, 0x8
+
+    .line 248
+    .line 249
+    aput-object v12, v4, v0
+
+    .line 250
+    .line 251
+    const/16 v0, 0x9
+
+    .line 252
+    .line 253
+    aput-object v9, v4, v0
+
+    .line 254
+    .line 255
+    const/16 v0, 0xa
+
+    .line 256
+    .line 257
+    aput-object v16, v4, v0
+
+    .line 258
+    .line 259
+    const/16 v0, 0xb
+
+    .line 260
+    .line 261
+    aput-object v18, v4, v0
+
+    .line 262
+    .line 263
+    const/16 v0, 0xc
+
+    .line 264
+    .line 265
+    aput-object v17, v4, v0
+
+    .line 266
+    .line 267
+    const/16 v0, 0xd
+
+    .line 268
+    .line 269
+    aput-object v14, v4, v0
+
+    .line 270
+    .line 271
+    const/16 v0, 0xe
+
+    .line 272
+    .line 273
+    aput-object v19, v4, v0
+
+    .line 274
+    .line 275
+    const/16 v0, 0xf
+
+    .line 276
+    .line 277
+    aput-object v20, v4, v0
+
+    .line 278
+    .line 279
+    const/16 v0, 0x10
+
+    .line 280
+    .line 281
+    aput-object v5, v4, v0
+
+    .line 282
+    .line 283
+    aput-object v3, v4, v7
+
+    .line 284
+    .line 285
+    sput-object v4, Lcom/zeekr/sdk/base/x$g$b;->t:[Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 286
+    .line 287
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;ILcom/zeekr/sdk/base/x$g$a;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/zeekr/sdk/base/x$g$a;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p3, p0, Lcom/zeekr/sdk/base/x$g$b;->a:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static a(I)Lcom/zeekr/sdk/base/x$g$b;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/zeekr/sdk/base/x$g$b;->g()[Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-static {p0}, Lcom/zeekr/sdk/base/s;->b(I)I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p0
+
+    .line 9
+    add-int/lit8 p0, p0, -0x1
+
+    .line 10
+    .line 11
+    aget-object p0, v0, p0
+
+    .line 12
+    .line 13
+    return-object p0
+.end method
+
+.method public static g()[Lcom/zeekr/sdk/base/x$g$b;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/zeekr/sdk/base/x$g$b;->t:[Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, [Lcom/zeekr/sdk/base/x$g$b;->clone()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [Lcom/zeekr/sdk/base/x$g$b;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final f()Lcom/zeekr/sdk/base/x$g$a;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/zeekr/sdk/base/x$g$b;->a:Lcom/zeekr/sdk/base/x$g$a;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
